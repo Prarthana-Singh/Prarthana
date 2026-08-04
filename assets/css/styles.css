@@ -489,6 +489,7 @@ body.light-theme {
 
 /*=============== SKILLS ===============*/
 .skills__container {
+  grid-template-columns: 1fr;
   padding-top: 1rem;
 }
 
@@ -496,8 +497,6 @@ body.light-theme {
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 1.25rem;
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 .skills__tags {
@@ -884,10 +883,6 @@ body.light-theme {
     padding: 1.75rem 0.95rem;
   }
 
-  .skills__container {
-    justify-content: center;
-  }
-
   .skills__content {
     padding: 2rem 2.5rem;
   }
@@ -1007,11 +1002,6 @@ body.light-theme {
   .about__description {
     padding: 0 4rem 0 0;
     margin-bottom: 2.5rem;
-  }
-
-  .skills__container {
-    grid-template-columns: max-content;
-    justify-content: center;
   }
 
   .services__container {
