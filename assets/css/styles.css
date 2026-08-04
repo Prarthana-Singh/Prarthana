@@ -1053,8 +1053,8 @@ body.light-theme {
   }
 
   .skills__container {
-    grid-template-columns: repeat(2, 460px);
-    column-gap: 3rem;
+    grid-template-columns: max-content;
+    justify-content: center;
   }
 
   .skills__title {
